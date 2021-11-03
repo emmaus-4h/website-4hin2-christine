@@ -3,8 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
-    
+    background-color: white;  
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
@@ -39,6 +38,7 @@ footer {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+    padding: 10px;
 }
 
 .smalltext {
@@ -60,7 +60,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #EEEEEE;
     overflow: hidden;
 }
 
@@ -70,14 +70,14 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: 
 }
 
 nav li a.active {
