@@ -33,14 +33,23 @@ footer {
 }
 
 
+
 /* specifieke stijlen */
 
 img.zweefLinks {
     float: left;
-    margin-right: 15px;
-    padding: 10px;
+    width: 50%;
 }
 
+img.zweefRechts {
+  float: right;
+  width: 50%;
+  
+}
+
+.rij {
+  width: 100%;
+}
 .smalltext {
     font-size: 0.7em;
 }
