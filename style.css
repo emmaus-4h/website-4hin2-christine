@@ -45,14 +45,6 @@ footer {
 
 /* specifieke stijlen */
 
-.zweefLinks {
-  float: left
-}
-
-.zweefRechts {
-  float:right;
-}
-
 img.zweefLinks {
     float: left;
     width: 50%;
