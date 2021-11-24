@@ -1,6 +1,12 @@
+/*
+* {
+  border: 1px solid black;
+}
+
 /* Basislayout */
 * {
   box-sizing: border-box;
+  overflow:auto;
 }
 
 html, body {
@@ -40,12 +46,20 @@ footer {
 /* specifieke stijlen */
 
 .zweefLinks {
+  float: left
+}
+
+.zweefRechts {
+  float:right;
+}
+
+img.zweefLinks {
     float: left;
     width: 50%;
     padding: 20px;
 }
 
-.zweefRechts {
+img.zweefRechts {
   float: right;
   width: 50%;
   padding: 20px;
@@ -54,6 +68,13 @@ footer {
 .rij {
   width: 100%;
 }
+
+.kolomLinks {
+  float: left;
+  width: 50%;
+  padding:10px;]
+}
+
 .smalltext {
     font-size: 0.7em;
 }
