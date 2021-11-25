@@ -1,12 +1,12 @@
-/*
+
 * {
-  border: 1px solid black;
+ /* border: 1px solid black;*/
 }
 
 /* Basislayout */
 * {
   box-sizing: border-box;
-  overflow:auto;
+  overflow: auto;
 }
 
 html, body {
@@ -20,7 +20,7 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 800px;
     position: relative;
 }
 
@@ -45,6 +45,14 @@ footer {
 
 /* specifieke stijlen */
 
+.gallerij {
+
+}
+
+.acteur {
+  float: left;
+  width:200px;
+}
 .grootte {
   width: 125px;
 }
