@@ -83,13 +83,17 @@ img.zweefRechts {
 
 .acteur {
   float: left;
-  width:20%;
+  width:200px;
   padding: 10px;
 
 }
 
-.gallerij {
+.acteur img {
   width:100%;
+}
+
+.gallerij {
+
 }
 .smalltext {
     font-size: 0.7em;
