@@ -9,12 +9,13 @@
   overflow: auto;
 }
 
+
 html, body {
     height: 100%;
     padding: 0;
-    background-color: white;  
-    color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    background-color: #ffffff;  
+    color: #463838;
+    font-family: "proxima nova", Arial, Sans-Serif;
 }
 
 
@@ -31,8 +32,9 @@ article {
 
 
 header {
-    color: skyblue;
+    color: #662233;
     text-align: center;
+    font-family: ltc-bodoni-175;
 }
 
 
@@ -42,6 +44,9 @@ footer {
 }
 
 
+h2 {
+  font-family: ltc-bodoni-175;
+}
 
 /* specifieke stijlen */
 
@@ -56,7 +61,6 @@ img.zweefRechts {
   width: 50%;
   padding: 20px;
 }
-
 .rij {
   width: 100%;
 }
@@ -111,7 +115,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #EEEEEE;
+    background-color: #662233;
     overflow: hidden;
 }
 
@@ -121,18 +125,19 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: black;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: ;
+    background-color: #844e5b;
+    text-decoration: none;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: #844e5b;
 }
 
 
