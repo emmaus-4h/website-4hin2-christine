@@ -96,10 +96,6 @@ img.zweefRechts {
   width:100%;
 }
 
-.smalltext {
-    font-size: 0.7em;
-}
-
 a {
     color: skyblue;
     text-decoration: none;
@@ -140,6 +136,15 @@ nav li a.active {
     background-color: #844e5b;
 }
 
+/* animatie */
 
+h1 {
+  animation: fadein 3s 1;
+}
+
+@keyframes fadein {
+  0%   {opacity: 0;}
+  100% {opacity: 1;}
+}
 
 
